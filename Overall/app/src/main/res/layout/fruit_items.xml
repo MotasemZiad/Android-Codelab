@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgFruit"
+        android:layout_width="150dp"
+        android:layout_height="154dp"
+        android:src="@drawable/lemon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Apple"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem lorem, feugiat quis urna ac, interdum placerat nisl. Nullam euismod ante eget nisi fermentum fermentum. "
+            android:textColor="#606060"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

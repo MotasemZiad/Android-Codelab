@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5a9c8"
+    tools:context=".Fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:inputType="textMultiLine"
+        android:lines="7"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="#673AB7"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</FrameLayout>

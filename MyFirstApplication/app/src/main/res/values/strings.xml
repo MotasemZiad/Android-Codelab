@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string-array name="status">
+        <item>متزوج</item>
+        <item>أعزب</item>
+        <item>مطلق</item>
+        <item>أرمل</item>
+        <item>على علاقة</item>
+    </string-array>
+</resources>

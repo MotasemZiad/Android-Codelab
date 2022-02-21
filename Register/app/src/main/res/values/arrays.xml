@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="university">
+        <item>IUG</item>
+        <item>AUG</item>
+        <item>UCAS</item>
+        <item>GTC</item>
+        <item>UP</item>
+        <item>OQU</item>
+    </string-array>
+
+
+</resources>

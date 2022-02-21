@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3779F1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Signup"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:paddingStart="10dp"
+            android:text="USERNAME"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ed_shape"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColorHint="@color/hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:text="EMAIL"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ed_shape"
+            android:hint="email"
+            android:inputType="textWebEmailAddress"
+            android:padding="15dp"
+            android:textColorHint="@color/hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:text="PASSWORD"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ed_shape"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColorHint="@color/hint" />
+
+        <TextView
+            android:id="@+id/tvSignFace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="end"
+            android:paddingStart="10dp"
+            android:text="Signin with facebook"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ed_shape"
+            android:text="Signup"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:elevation="15dp"/>
+
+        <TextView
+            android:id="@+id/tvHaveAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Already have an account?"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Toast Message"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>

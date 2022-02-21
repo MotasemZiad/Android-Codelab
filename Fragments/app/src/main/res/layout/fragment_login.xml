@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    android:paddingStart="15dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:text="Login"
+    android:textSize="48sp"
+    android:textColor="#692175"
+    android:layout_gravity="center"
+    android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Username"
+        android:textColor="#000"
+        android:textSize="32dp" />
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter username"
+        android:inputType="textPersonName" />
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Password"
+        android:textColor="#000"
+        android:textSize="32dp" />
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+    <CheckBox
+        android:id="@+id/cbRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:buttonTint="#692175"
+        android:buttonTintMode="src_in" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#fff"
+        android:background="@drawable/btn_shape" />
+
+
+</LinearLayout>

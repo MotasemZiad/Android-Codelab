@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edNum1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:padding="25dp"
+        android:gravity="start"
+        android:hint="Enter number one "
+        android:inputType="numberDecimal"
+        android:textColorHint="#fff"
+        android:background="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/edNum2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:padding="25dp"
+        android:gravity="start"
+        android:hint="Enter number two "
+        android:inputType="numberDecimal"
+        android:textColorHint="#fff"
+        android:background="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edNum1" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edNum2"
+        android:weightSum="2">
+       <Button
+           android:id="@+id/btnSum"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="15dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:text="Sum +"
+           android:textColor="#FF5722"
+           android:background="#ffffffff"
+           android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnSub"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:padding="15dp"
+           android:text="Sub -"
+           android:textColor="#FF5722"
+            android:background="#ffffffff"
+           android:layout_weight="1" />
+    </LinearLayout>
+
+ <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear1"
+        android:weightSum="2">
+       <Button
+           android:id="@+id/btnDiv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="15dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginEnd="5dp"
+           android:text="Div /"
+           android:textColor="#FF5722"
+           android:background="#ffffffff"
+           android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnMul"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+           android:text="Mul *"
+           android:textColor="#FF5722"
+            android:background="#ffffffff"
+           android:layout_weight="1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Mod %"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="#FF5722"
+        android:background="#ffffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linear2" />
+
+    <EditText
+        android:id="@+id/edResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingStart="10dp"
+        android:enabled="false"
+        android:hint="Result"
+        android:background="#ffffffff"
+        android:textColorHint="#A0161111"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnMod" />
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Clear"
+        android:textColor="#FFC107"
+        android:background="#ffffffff"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/edResult"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

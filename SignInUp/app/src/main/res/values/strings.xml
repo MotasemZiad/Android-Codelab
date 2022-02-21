@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SignInUp</string>
+    <string-array name="relation">
+        <item>متزوج</item>
+        <item>مطلق</item>
+        <item>عازب</item>
+        <item>أرمل</item>
+        <item>على علاقة</item>
+    </string-array>
+</resources>

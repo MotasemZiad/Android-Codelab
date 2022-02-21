@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Enter The first mark"
+     android:textColor="#000"
+     android:textStyle="bold"
+     android:layout_marginTop="20dp"
+     android:paddingStart="5dp"/>
+ <EditText
+     android:id="@+id/mark1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:inputType="numberDecimal"
+     android:layout_marginTop="5dp"
+     android:background="#f7f7f7f7"
+     android:hint="First mark"
+     android:paddingStart="5dp"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Enter The second mark"
+     android:textColor="#000"
+     android:textStyle="bold"
+     android:layout_marginTop="10dp"
+     android:paddingStart="5dp"/>
+
+ <EditText
+     android:id="@+id/mark2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:inputType="numberDecimal"
+     android:layout_marginTop="5dp"
+     android:background="#f7f7f7f7"
+     android:hint="Second mark"
+     android:paddingStart="5dp"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Enter The third mark"
+     android:textColor="#000"
+     android:textStyle="bold"
+     android:layout_marginTop="10dp"
+     android:paddingStart="5dp"/>
+
+ <EditText
+     android:id="@+id/mark3"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:inputType="numberDecimal"
+     android:layout_marginTop="5dp"
+     android:background="#f7f7f7f7"
+     android:hint="Third mark"
+     android:paddingStart="5dp"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Enter The fourth mark"
+     android:textColor="#000"
+     android:textStyle="bold"
+     android:layout_marginTop="10dp"
+     android:paddingStart="5dp"/>
+
+ <EditText
+     android:id="@+id/mark4"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:inputType="numberDecimal"
+     android:background="#f7f7f7f7"
+     android:hint="Fourth mark "
+     android:layout_marginTop="5dp"
+     android:paddingStart="5dp"/>
+ <EditText
+     android:id="@+id/edResult"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:enabled="false"
+     android:background="#f7f7f7f7"
+     android:hint="AVG"
+     android:textColorHint="#CAB867"
+     android:layout_marginTop="20dp"
+     android:paddingStart="5dp"/>
+
+
+
+ <Button
+     android:id="@+id/btnAvg"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#c3c3c3"
+     android:textColor="#000"
+     android:layout_margin="30dp"
+     android:textStyle="bold"
+     android:text="Average " />
+ <Button
+     android:id="@+id/btnGo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:background="@drawable/sv_shape"
+     android:textColor="#ff0000"
+     android:layout_marginTop="120dp"
+
+     android:textStyle="bold"
+     android:text="Go To Act2 " />
+
+
+
+
+ <!-- ************************************************* -->
+<!--
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="218dp"
+     android:layout_gravity="center|top"
+     android:scaleType="centerCrop"
+     android:src="@drawable/coffee" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="2dp"
+     android:orientation="horizontal"
+      >
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="Hello world !
+This is a new begin with a lot of strength a lot of aesthetic a lot of passion.
+my name is Motasem Ziad AbuNema I am 19 years old I am from Gaza and I live in it.
+I have been studying Mobile Computing and smartphones applications in Information Technology at Islamic University of Gaza for 2 years ago.
+When I was young I always show myself in front of a computer and start coding !
+I follow my passion and my passion is being a Developer and I keep going to be that .
+I like the fire don't suffer from the science , Especially the self science .
+I hope I will be a programmer to reach my dreams and my goals in the future.
+This is a new begin with a lot of strength a lot of aesthetic a lot of passion.
+my name is Motasem Ziad AbuNema I am 19 years old I am from Gaza and I live in it.
+I have been studying Mobile Computing and smartphones applications in Information Technology at Islamic University of Gaza for 2 years ago.
+When I was young I always show myself in front of a computer and start coding !
+I follow my passion and my passion is being a Developer and I keep going to be that .
+I like the fire don't suffer from the science , Especially the self science .
+I hope I will be a programmer to reach my dreams and my goals in the future.
+This is a new begin with a lot of strength a lot of aesthetic a lot of passion.
+my name is Motasem Ziad AbuNema I am 19 years old I am from Gaza and I live in it.
+I have been studying Mobile Computing and smartphones applications in Information Technology at Islamic University of Gaza for 2 years ago.
+When I was young I always show myself in front of a computer and start coding !
+I follow my passion and my passion is being a Developer and I keep going to be that .
+I like the fire don't suffer from the science , Especially the self science .
+I hope I will be a programmer to reach my dreams and my goals in the future.
+This is a new begin with a lot of strength a lot of aesthetic a lot of passion.
+my name is Motasem Ziad AbuNema I am 19 years old I am from Gaza and I live in it.
+I have been studying Mobile Computing and smartphones applications in Information Technology at Islamic University of Gaza for 2 years ago.
+When I was young I always show myself in front of a computer and start coding !
+I follow my passion and my passion is being a Developer and I keep going to be that .
+I like the fire don't suffer from the science , Especially the self science .
+I hope I will be a programmer to reach my dreams and my goals in the future.
+Hello world
+"
+     android:textColor="#360140"
+   android:textSize="14sp"
+   android:textStyle="italic"/>
+
+
+ </LinearLayout>
+
+</ScrollView>
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="0dp"
+     android:orientation="vertical"
+     android:layout_weight="3" >
+
+ </LinearLayout>
+
+-->
+ <!-- ************************************************* -->
+ <!--
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+  <ImageView
+      android:layout_width="501dp"
+      android:layout_height="225dp"
+      android:layout_gravity="center|top"
+      android:scaleType="center"
+      android:src="@drawable/outoftime">
+
+  </ImageView>
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginTop="20dp"
+     android:layout_marginStart="20dp"
+     android:layout_marginEnd="20dp"
+     android:layout_marginBottom="0dp">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="Username"
+      android:textStyle="bold"
+      android:layout_weight="2"
+      android:textSize="25sp"
+      android:background="#e400f5"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="username"
+      android:textStyle="bold"
+      android:layout_weight="1"
+      android:inputType="textPersonName"/>
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_margin="20dp">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="Password"
+      android:textStyle="bold"
+      android:layout_weight="2"
+      android:textSize="25sp"
+      android:background="#e400f5"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="password"
+      android:textStyle="bold"
+      android:layout_weight="1"
+      android:inputType="textPassword"/>
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center"
+     android:layout_marginTop="15dp"
+     android:layout_marginStart="20dp"
+     android:layout_marginEnd="20dp">
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sign in"
+         android:textStyle="bold"
+         android:layout_weight="3"
+         android:background="#e0e0e0"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sign up"
+          android:layout_weight="3"
+          android:textStyle="bold"
+          android:background="#e0e0e0"
+          />
+
+ </LinearLayout> -->
+<!--**************************************************** -->
+</LinearLayout>
+
+
+
+
+
+
+
+
+

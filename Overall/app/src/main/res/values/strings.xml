@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Overall</string>
+    <string-array name="university">
+        <item>IUG</item>
+        <item>AUG</item>
+        <item>UCAS</item>
+        <item>UP</item>
+        <item>OQU</item>
+        <item>AU</item>
+        <item>GTC</item>
+    </string-array>
+</resources>

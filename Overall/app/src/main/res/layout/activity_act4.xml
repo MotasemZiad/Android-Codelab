@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:id="@+id/btnGoToAct5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_shape"
+        android:text="Go to Act5"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@id/lvDataFruit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/lvDataFruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/btnGoToAct5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

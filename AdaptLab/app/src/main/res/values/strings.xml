@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AdaptLab</string>
+    <string-array name="programming_Languages">
+        <item>Java</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>JavaScript</item>
+        <item>pHp</item>
+        <item>Asp.net</item>
+        <item>VB.net</item>
+        <item>React.js</item>
+        <item>Node.js</item>
+        <item>R</item>
+        <item>Go</item>
+
+
+        <item>Java</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>JavaScript</item>
+        <item>pHp</item>
+        <item>Asp.net</item>
+        <item>VB.net</item>
+        <item>React.js</item>
+        <item>Node.js</item>
+        <item>R</item>
+        <item>Go</item>
+
+
+        <item>Java</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>JavaScript</item>
+        <item>pHp</item>
+        <item>Asp.net</item>
+        <item>VB.net</item>
+        <item>React.js</item>
+        <item>Node.js</item>
+        <item>R</item>
+        <item>Go</item>
+
+
+        <item>Java</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>JavaScript</item>
+        <item>pHp</item>
+        <item>Asp.net</item>
+        <item>VB.net</item>
+        <item>React.js</item>
+        <item>Node.js</item>
+        <item>R</item>
+        <item>Go</item>
+    </string-array>
+</resources>
